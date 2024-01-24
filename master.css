@@ -1,0 +1,143 @@
+.navbar-nav .nav-link:hover {
+    color:   rgb(50, 221, 221)  !important;
+}
+
+.img1 {
+    width: 90%;
+    height: 90%;
+    animation-name: up-and-down;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-delay: .3s;
+    padding-bottom: 60px;
+}
+
+@keyframes up-and-down {
+    100% {
+        transform: translatey(90px);
+    }
+}
+
+#tx {
+    vertical-align: text-top !important;
+}
+
+#padg1 {
+    background-image: url("images/hero-bg.png");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.btn {
+    background-color: rgb(47, 194, 194) !important;
+    color: white !important;
+    padding: 8px 33px !important;
+    border-radius: 0px !important;
+    font-size: 16px !important;
+}
+
+.btn:hover {
+    background-color: rgb(54, 153, 153) !important;
+}
+
+#container {
+    display: inline-block;
+    cursor: pointer;    
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+#Service{
+    padding-top: 8%!important;
+}
+
+.card {
+    padding: 0px 70px 10px 70px !important;
+    border: none !important;
+}
+
+button{
+    border: none;
+    color: rgb(7, 7, 71);
+    font-weight: 800 !important;
+    background: none;
+}
+
+button :hover{
+    color:   rgb(50, 221, 221);
+    cursor: pointer;
+}
+
+span{
+    color:   rgb(50, 221, 221);
+}
+.icons img{
+    width:65px;
+    padding-top: 21px;
+
+}
+
+.row p a {
+    text-decoration: none;
+}
+#input{
+    background-color: rgb(7, 7, 71);
+    border: none;
+    color: #ffffff;
+    border-bottom: #ffffff solid 1px;
+    padding-bottom: 11px;
+}
+.col h3{
+    font-weight: 500;
+}
+#copyright{
+    color: rgb(7, 7, 71)
+}
+#imgTeam{
+    border-radius:50% !important;
+    width: 50% !important;
+    margin: 0 auto ;
+}
+.linkFooter:hover{
+    color:   rgb(50, 221, 221);
+    cursor: pointer;
+}
+/* .row p a .loc :hover{
+    color:   rgb(50, 221, 221);
+    cursor: pointer;
+} */
+
+/* .icons{
+    border-radius: 50% !important;
+    border:4px solid rgb(7, 7, 71);
+    width: 100px;
+    height: 100px;
+}  */
+
+
